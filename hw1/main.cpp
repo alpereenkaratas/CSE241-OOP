@@ -16,7 +16,7 @@ int main(){
     while(1){
         cout << "Select game mode:\n1) w/ computer\n2) Two player\n";
         cin >> gameModeSelection;
-        cout << "Enter the board size: 6x6,7x7,8x8,9x9,10x10,11x11 or 12x12. (Enter it by one dimension. (For ex. 5,8 or 12)) --> ";
+        cout << "Enter the board size: 6x6,7x7,8x8,9x9,10x10,11x11 or 12x12. (Enter it by one dimension. (For ex. 6,8 or 12)) --> ";
         cin >> boardSize;
         char board[M][M];
     
